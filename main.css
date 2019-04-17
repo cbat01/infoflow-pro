@@ -1,0 +1,115 @@
+/* pages/main/main.wxss */
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: rgb(235, 235,235);
+}
+.logo{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.logo p{
+  font-size: 24px;
+  font-weight: bold;
+}
+.header{
+  width: 100%;
+  height: 40px;
+}
+.headeritem{
+  width: 33%;
+  line-height: 40px;
+  text-align: center;
+  float: left;
+}
+.active{
+  border-bottom: 3px solid #000;
+}
+
+.content{
+  width: 100%;
+}
+
+.box{
+  margin-top: 10px;
+  width: 94%;
+  min-height: 120px;
+  border-radius: 5px;
+  background: #fff;
+  margin-left: 2%;
+  padding: 5px;
+}
+
+.title{
+  margin-top: 5px;
+  padding-left: 5px;
+  /*font-size: 35rpx;*/
+  color: rgb(52, 52, 52);
+  padding-bottom: 5px;
+  font-weight: bold;
+  
+}
+
+.tags{
+  width: 100%;
+  padding:0px 0px 5px 0px;
+  /* border-bottom: 1px solid rgb(232, 232,232); */
+}
+
+.tag{
+  color: rgb(38,121,255);
+  /*font-size: 22rpx;*/
+  border-radius: 5px;
+  display: inline-block;
+  padding:2px 5px 2px 5px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+}
+
+.boxcontent{
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.footer{
+  width: 100%;
+  height: 25px;
+}
+
+.infoid{
+  padding-left: 5px;
+  float: left;
+  line-height: 25px;
+  color: #c8c7cc;
+}
+.up{
+  float: right;
+  line-height: 25px;
+  color: #c8c7cc;
+  width: 120px;
+}
+
+.upitem{
+  width: 60px;
+  float: left;
+}
+
+.oo{
+  width: 25px;
+  color: #ffaaaa;
+  float: left;
+}
+
+.xx{
+  width: 25px;
+  color: #aaaaff;
+  float: left;
+}
+
+.num{
+  width: 15px;
+  float: left;
+}
