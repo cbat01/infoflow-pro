@@ -6,7 +6,7 @@ $(document).ready(function(){
         $(".main").empty()
         $.ajax({
             type:'get',
-            url:'https://120.78.80.241/router/index.php/NewList/newList',
+            url:'http://120.78.80.241/router/index.php/NewList/newList',
             dataType:'json',
             data:{
                 type:'1'
