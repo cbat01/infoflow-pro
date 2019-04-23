@@ -1,0 +1,263 @@
+/* pages/main/main.wxss */
+html{
+  font-size: 62.5%;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: rgb(235, 235,235);
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.top{
+  width: 100%;
+  position: fixed;
+  top: 0rem;
+  background-color: #fff;
+}
+.logo{
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+}
+.logo-text{
+  text-align: center;
+  height: 2.6rem;
+}
+.logo p{
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.search{
+  position: fixed;
+  top: 1.1rem;
+  right: 1.5rem;
+  height: 2.6rem;
+}
+.search img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.header{
+  width: 100%;
+  height: 4rem;
+  font-size: 1.6rem;
+  color: #c8c7cc;
+}
+.headeritem{
+  width: 33%;
+  line-height: 4rem;
+  text-align: center;
+  float: left;
+}
+.active{
+  border-bottom: 0.3rem solid #000;
+  color: #000;
+}
+
+.main{
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 1.5rem;
+}
+.content{
+  width: 100%;
+}
+
+.box{
+  margin-top: 1rem;
+  width: 94%;
+  min-height: 1.20rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  margin-left: 3%;
+  padding: 0.5px;
+}
+
+.title{
+  margin-top: 1rem;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  color: rgb(52, 52, 52);
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  
+}
+
+.tags{
+  width: 100%;
+  padding:0.5rem 0px 0.5rem 0px;
+  /* border-bottom: 1px solid rgb(232, 232,232); */
+}
+
+.tag{
+  color: rgb(38,121,255);
+  /*font-size: 22rpx;*/
+  border-radius: 1rem;
+  display: inline-block;
+  padding:0.2rem 0.5rem 0.2rem 0.5rem;
+  margin-left: 1rem;
+  border: 0.1rem solid rgb(38,121,255);
+}
+
+.boxcontent{
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.footer{
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoid{
+  padding-left: 1.5rem;
+  float: left;
+  line-height: 2.5rem;
+  color: #c8c7cc;
+  font-size: 1.4rem;
+}
+.infoid img{
+  display: inline-block;
+  float: left;
+  line-height: 2.5rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-top: 0.33rem;
+  border-radius: 0.9rem;
+}
+.infoid p{
+  padding-left: 0.5rem;
+  display: inline-block;
+  float: left;
+}
+.up{
+  float: right;
+  line-height: 2.5rem;
+  color: #c8c7cc;
+  width: 11rem;
+  font-size: 1.4rem;
+}
+
+.upitem{
+  width: 5rem;
+  float: left;
+}
+
+#oo{
+  width: 2.5rem;
+  color: #ffaaaa;
+  float: left;
+  text-align: center;
+}
+
+.xx{
+  width: 2.5rem;
+  color: #aaaaff;
+  float: left;
+  text-align: center;
+}
+
+.num{
+  width: 1.5rem;
+  float: left;
+  text-align: center;
+}
+
+/*
+  submit.html
+*/
+
+#submit-body{
+  background-color: #fff;
+}
+#submit-body input textarea{
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  outline: none;
+}
+#submit-body input:focus{
+  border-bottom: 1px solid rgb(38,121,255);
+}
+.submit-back{
+  position: fixed;
+  top: 1.3rem;
+  left: 1.5rem;
+  height: 2.6rem;
+}
+.submit-back img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+#submit-main{
+  width: 100%;
+  padding-top: 5rem;
+}
+
+#submit-title{
+  width: 96%;
+  height: 4rem;
+  margin-left: 2%;
+  margin-bottom: 1rem;
+}
+
+#submit-title input{
+  width: 96.5%;
+  height: 100%;
+  border-top: 0px;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(232, 232,232);
+  padding-left: 1rem;
+  outline: none;
+
+}
+
+#submit-content{
+  width: 96%;
+  height: 10rem;
+  margin-top: 1rem;
+  margin-left: 2%;
+
+}
+#submit-content textarea{
+  width: 96.5%;
+  height: 100%;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: inline-block;
+  outline: none;
+  border-style: none;
+  border-bottom: 1px solid rgb(232, 232,232);
+}
+
+#submit-content textarea:focus{
+  border-bottom: 1px solid rgb(38,121,255);
+}
+
+#submit-upload{
+  width: 100%;
+  height: 3rem;
+  margin-top: 2.5rem;
+}
+
+#submit-btn{
+  display: inline-block;
+  float: right;
+  margin-right: 1.5rem;
+  width: 5rem;
+  height: 2.5rem;
+  border: 0.1rem solid #ccc;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: rgb(38,121,255);
+  color: #fff;
+  line-height: 2.5rem;
+  outline: none;
+}
