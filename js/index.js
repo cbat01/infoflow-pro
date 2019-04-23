@@ -12,6 +12,7 @@ $(document).ready(function(){
                 type:'1'
             },
             success:function(res){
+              console.log("success");
                 var data = res.data;
                 var str = '';
                 $.each(data,function(i, obj){
@@ -108,7 +109,7 @@ $(document).ready(function(){
                   }
             };
       $("#upform").submit();
-      console.log("fdf");
+      //console.log("fdf");
     })
 
 
